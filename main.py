@@ -8,7 +8,7 @@ date = '2023-02-05'
 print(date)
 try:
     result = client.service.queryTCRM(date)
+    print(result)
 except Exception as e:
     print(str(e))
-print(result)
 
